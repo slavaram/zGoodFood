@@ -1,0 +1,14 @@
+.nav__item {
+    margin-right: 10px;
+    font-size: 18px;
+    font-family: 'Inter';
+}
+
+.nav__item:last-child {
+    margin-right: 0;
+}
+
+.nav__item:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
