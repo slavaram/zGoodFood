@@ -1,0 +1,9 @@
+.products__item {
+    margin: 10px 0;
+}
+
+.products__item:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    color: rgb(49, 48, 48);
+}

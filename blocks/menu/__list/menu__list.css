@@ -1,0 +1,15 @@
+.menu__list {
+    margin-right: 10px;
+    font-family: 'Inter', 'Arial', sans-serif;
+    font-size: 21px;
+    line-height: 25px;
+}
+
+.menu__list:last-child {
+    margin-right: 10px;
+}
+
+.menu__list:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}

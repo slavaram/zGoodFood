@@ -1,121 +1,81 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mesto</title>
     <link rel="stylesheet" href="./pages/index.css">
+    <title>Document</title>
 </head>
 
-<body class="body">
+<body>
     <div class="conteiner">
         <header class="header">
-            <div class="logo">
-                <img src="./images/sheep-158275.svg" alt="Логотип" class="logo__pic">
-                <div class="logo__name logo__name_position">zGoodFood</div>
-            </div>
+            <img src="./images/dinozavr.svg" alt="Логотип" class="logo">
             <nav class="nav">
-                <ul class="nav__items">
-                    <li class="nav__item">О нас</li>
-                    <li class="nav__item">Наша продукция</li>
-                    <li class="nav__item">Контакты</li>
+                <ul class="menu">
+                    <li class="menu__list">О нас</li>
+                    <li class="menu__list">Ассортимент</li>
+                    <li class="menu__list">Где купить</li>
                 </ul>
             </nav>
         </header>
-        <main>
-            <section class="content content_position">
-                <h1 class="title title_position">Наша продукция</h1>
-                <div class="products">
-                    <div class="products__element products__element_xxl">
-                        <img src="./images/хлеб.jpg" alt="" class="products__photo">
-                        <div class="products__about">
-                            <p class="products__name">Варенье малиновое "Дары Армении" 200г.</p>
-                            <p class="products__price">300руб.</p>
-                        </div>
+        <main class="main">
+            <section class="heading">
+                <h1 class="heading__title heading__title_position">Продукты из Армении</h1>
+                <p class="heading__subtitle">чаи, кофе, джемы и не только...</p>
+            </section>
+            <section class="content">
+                <div class="gallary gallary_position">
+                    <div class="gallary__item"><img src="./images/Meron.jpg" alt="Мерон" class="gallary__img">
+                        <p class="gallary__item-name">Растворимый чай</p>
                     </div>
-                    <div class="products__element">
-                        <img src="./images" alt="" class="products__photo">
-                        <div class="products__about">
-                            <p class="products__name">Чай рассыпной Годжи/Малина "Сила духа" 100г.</p>
-                            <p class="products__price">200руб.</p>
-                        </div>
+                    <div class="gallary__item"><img src="./images/Manana.jpg" alt="Манана" class="gallary__img">
+                        <p class="gallary__item-name">Травяной чай</p>
                     </div>
-                    <div class="products__element">
-                        <img src="./images" alt="" class="products__photo">
-                        <div class="products__about">
-                            <p class="products__name">Конфеты "Дружба" 1кг.</p>
-                            <p class="products__price">330руб.</p>
-                        </div>
+                    <div class="gallary__item"><img src="./images/Coffee.jpg" alt="Кофе" class="gallary__img">
+                        <p class="gallary__item-name">Зерновой кофе</p>
                     </div>
-                    <div class="products__element">
-                        <img src="./images" alt="" class="products__photo">
-                        <div class="products__about">
-                            <p class="products__name">Кроссовки "No Name"</p>
-                            <p class="products__price">2300руб.</p>
-                        </div>
+                    <div class="gallary__item"><img src="./images/Darman.jpg" alt="Дарман" class="gallary__img">
+                        <p class="gallary__item-name">Травяной чай</p>
                     </div>
-                    <div class="products__element">
-                        <img src="./images" alt="" class="products__photo">
-                        <div class="products__about">
-                            <p class="products__name">Свинина "Golden meat" 500г.</p>
-                            <p class="products__price">300руб.</p>
-                        </div>
+                    <div class="gallary__item"><img src="./images/DarmanXXL.jpg" alt="Дарман" class="gallary__img">
+                        <p class="gallary__item-name">Травяной чай</p>
                     </div>
-                    <div class="products__element">
-                        <img src="./images" alt="" class="products__photo">
-                        <div class="products__about">
-                            <p class="products__name">Варенье малиновое "Любимое" 200г.</p>
-                            <p class="products__price">300руб.</p>
-                        </div>
-                    </div>
-                    <div class="products__element">
-                        <img src="./images" alt="" class="products__photo">
-                        <div class="products__about">
-                            <p class="products__name">Свинина "Golden meat" 500г.</p>
-                            <p class="products__price">300руб.</p>
-                        </div>
-                    </div>
-                    <div class="products__element">
-                        <img src="./images" alt="" class="products__photo">
-                        <div class="products__about">
-                            <p class="products__name">Варенье малиновое "Любимое" 200г.</p>
-                            <p class="products__price">300руб.</p>
-                        </div>
-                    </div>
-                    <div class="products__element">
-                        <img src="./images" alt="" class="products__photo">
-                        <div class="products__about">
-                            <p class="products__name">Свинина "Golden meat" 500г.</p>
-                            <p class="products__price">300руб.</p>
-                        </div>
-                    </div>
-                    <div class="products__element">
-                        <img src="./images" alt="" class="products__photo">
-                        <div class="products__about">
-                            <p class="products__name">Варенье малиновое "Любимое" 200г.</p>
-                            <p class="products__price">300руб.</p>
-                        </div>
-                    </div>
-                    <div class="products__element">
-                        <img src="./images" alt="" class="products__photo">
-                        <div class="products__about">
-                            <p class="products__name">Свинина "Golden meat" 500г.</p>
-                            <p class="products__price">300руб.</p>
-                        </div>
-                    </div>
-                    <div class="products__element">
-                        <img src="./images" alt="" class="products__photo">
-                        <div class="products__about">
-                            <p class="products__name">Варенье малиновое "Любимое" 200г.</p>
-                            <p class="products__price">300руб.</p>
-                        </div>
+                    <div class="gallary__item"><img src="./images/Meditrina.jpg" alt="Джем" class="gallary__img">
+                        <p class="gallary__item-name">Конфитюр</p>
                     </div>
                 </div>
             </section>
         </main>
-        <footer class="footer">
-
+        <footer class="footer footer__position">
+            <div class="products">
+                <h2 class="products__title">Чай</h2>
+                <ul class="products__items">
+                    <li class="products__item">Darman</li>
+                    <li class="products__item">Meron Tea</li>
+                    <li class="products__item">Manana</li>
+                </ul>
+            </div>
+            <div class="products">
+                <h2 class="products__title">Кофе</h2>
+                <ul class="products__items">
+                    <li class="products__item">Coffee Ground</li>
+                </ul>
+            </div>
+            <div class="products">
+                <h2 class="products__title">Продукты</h2>
+                <ul class="products__items">
+                    <li class="products__item">Meditrina</li>
+                </ul>
+            </div>
+            <div class="products">
+                <h2 class="products__title">Контакты </h2>
+                <ul class="products__items">
+                    <li class="products__item">+7928382474</li>
+                    <li class="products__item">lavochkaentuziastov@yandex.ru</li>
+                </ul>
+            </div>
         </footer>
     </div>
 </body>
