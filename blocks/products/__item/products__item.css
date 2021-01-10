@@ -1,9 +1,15 @@
 .products__item {
-    margin: 10px 0;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 10px 5px rgba(221, 221, 221, 1);
 }
 
 .products__item:hover {
     cursor: pointer;
-    text-decoration: underline;
-    color: rgb(49, 48, 48);
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    background-color: #fff;
 }

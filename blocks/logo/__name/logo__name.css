@@ -1,5 +1,7 @@
 .logo__name {
-    font-size: 46px;
-    font-family: 'Inter';
-    font-weight: 500;
+    margin: 0;
+    /* font-family: 'Good Vibes Pro'; */
+    font-family: 'Amatic SC';
+    font-weight: 700;
+    font-size: 40px;
 }

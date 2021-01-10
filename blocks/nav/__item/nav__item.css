@@ -1,14 +1,15 @@
 .nav__item {
-    margin-right: 10px;
-    font-size: 18px;
-    font-family: 'Inter';
+    margin-right: 150px;
+    font-family: 'Amatic SC';
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.nav__item:hover {
+    cursor: pointer;
+    text-decoration: underline;
 }
 
 .nav__item:last-child {
     margin-right: 0;
-}
-
-.nav__item:hover {
-    text-decoration: underline;
-    cursor: pointer;
 }

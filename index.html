@@ -4,80 +4,115 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./pages/index.css">
     <title>Document</title>
+    <link rel="stylesheet" href="./pages/index.css">
 </head>
 
-<body>
-    <div class="conteiner">
-        <header class="header">
-            <img src="./images/dinozavr.svg" alt="Логотип" class="logo">
-            <nav class="nav">
-                <ul class="menu">
-                    <li class="menu__list">О нас</li>
-                    <li class="menu__list">Ассортимент</li>
-                    <li class="menu__list">Где купить</li>
+<body class="body">
+    <header class="header">
+        <div class="header__conteiner conteiner">
+            <div class="logo">
+                <h1 class="logo__name">ИП Рамазанов И.И.</h1>
+            </div>
+            <nav class="header__navigation">
+                <ul class="nav">
+                    <li class="nav__item">О нас</li>
+                    <li class="nav__item">Продукция</li>
+                    <li class="nav__item">Контакты</li>
                 </ul>
             </nav>
-        </header>
-        <main class="main">
-            <section class="heading">
-                <h1 class="heading__title heading__title_position">Продукты из Армении</h1>
-                <p class="heading__subtitle">чаи, кофе, джемы и не только...</p>
+        </div>
+    </header>
+    <main class="main">
+        <div class="main__container">
+            <section class="slider-bar">
+                <ul class="slides">
+                    <li class="slides__slide slides__showing"></li>
+                    <li class="slides__slide"></li>
+                    <li class="slides__slide"></li>
+                    <!-- <li class="slides__slide"></li>
+                    <li class="slides__slide"></li> -->
+                </ul>
             </section>
             <section class="content">
-                <div class="gallary gallary_position">
-                    <div class="gallary__item"><img src="./images/Meron.jpg" alt="Мерон" class="gallary__img">
-                        <p class="gallary__item-name">Растворимый чай</p>
+                <h2 class="content__name">Пищевая продукция</h2>
+                <div class="products">
+                    <div class="products__item">
+                        <a href="./meron.html" class="products__link" target="_blank"><img src="./images/Logo_Darman.png" alt="" class="products__img"></a>
                     </div>
-                    <div class="gallary__item"><img src="./images/Manana.jpg" alt="Манана" class="gallary__img">
-                        <p class="gallary__item-name">Травяной чай</p>
+                    <div class="products__item">
+                        <img src="./images/logo_meron.png" alt="" class="products__img">
                     </div>
-                    <div class="gallary__item"><img src="./images/Coffee.jpg" alt="Кофе" class="gallary__img">
-                        <p class="gallary__item-name">Зерновой кофе</p>
+                    <div class="products__item">
+                        <img src="./images/logo_manana.jpg" alt="" class="products__img">
                     </div>
-                    <div class="gallary__item"><img src="./images/Darman.jpg" alt="Дарман" class="gallary__img">
-                        <p class="gallary__item-name">Травяной чай</p>
+                    <div class="products__item">
+                        <img src="./images/Herbal Tea.png" alt="" class="products__img products__img_coffee">
                     </div>
-                    <div class="gallary__item"><img src="./images/DarmanXXL.jpg" alt="Дарман" class="gallary__img">
-                        <p class="gallary__item-name">Травяной чай</p>
+                    <div class="products__item">
+                        <img src="./images/95961.jpg" alt="" class="products__img products__img_coffee">
                     </div>
-                    <div class="gallary__item"><img src="./images/Meditrina.jpg" alt="Джем" class="gallary__img">
-                        <p class="gallary__item-name">Конфитюр</p>
+                </div>
+                <h2 class="content__name">Товары для здоровья</h2>
+                <div class="products products_halh">
+                    <div class="products__item">
+                        <img src="./images/LARYSTOM LOGO final rus.jpg" alt="" class="products__img">
+                    </div>
+                    <div class="products__item products__item_gel">
+                        <div class="products__item_gel__box">
+                            <img src="./images/Logo_Fiber_TEX_wite.png" alt=""
+                                class="products__img products__img_fiber">
+                        </div>
                     </div>
                 </div>
             </section>
-        </main>
-        <footer class="footer footer__position">
-            <div class="products">
-                <h2 class="products__title">Чай</h2>
-                <ul class="products__items">
-                    <li class="products__item">Darman</li>
-                    <li class="products__item">Meron Tea</li>
-                    <li class="products__item">Manana</li>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="conteiner conteiner_footer">
+            <div class="list">
+                <h2 class="list__name">Травы и сборы</h2>
+                <ul class="list__products">
+                    <li class="list__item">Darman</li>
+                    <li class="list__item">Manana</li>
+                    <li class="list__item">Mountea</li>
                 </ul>
             </div>
-            <div class="products">
-                <h2 class="products__title">Кофе</h2>
-                <ul class="products__items">
-                    <li class="products__item">Coffee Ground</li>
+            <div class="list">
+                <h2 class="list__name">Растворимый чай</h2>
+                <ul class="list__products">
+                    <li class="list__item">Meron Berry</li>
                 </ul>
             </div>
-            <div class="products">
-                <h2 class="products__title">Продукты</h2>
-                <ul class="products__items">
-                    <li class="products__item">Meditrina</li>
+            <div class="list">
+                <h2 class="list__name">Кофе</h2>
+                <ul class="list__products">
+                    <li class="list__item">Coffe Cgounds</li>
                 </ul>
             </div>
-            <div class="products">
-                <h2 class="products__title">Контакты </h2>
-                <ul class="products__items">
-                    <li class="products__item">+7928382474</li>
-                    <li class="products__item">lavochkaentuziastov@yandex.ru</li>
+            <div class="list">
+                <h2 class="list__name">Ополаскиватель</h2>
+                <ul class="list__products">
+                    <li class="list__item">Ларисом</li>
                 </ul>
             </div>
-        </footer>
-    </div>
+            <div class="list">
+                <h2 class="list__name">Антисептик</h2>
+                <ul class="list__products">
+                    <li class="list__item">Fiber-Gel</li>
+                </ul>
+            </div>
+            <div class="list">
+                <h2 class="list__name">О нас</h2>
+                <ul class="list__products">
+                    <li class="list__item">Кто мы</li>
+                    <li class="list__item">Где купить</li>
+                    <li class="list__item">Контакты</li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <script src="./script/script.js"></script>
 </body>
 
 </html>
