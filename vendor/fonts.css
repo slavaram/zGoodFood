@@ -1,23 +1,43 @@
 @font-face {
-	font-family: 'Amatic SC';
-	src: url('./fonts/amatic-sc-v15-latin_cyrillic-regular.woff2')	format('woff2'),
-		   url('./fonts/amatic-sc-v15-latin_cyrillic-regular.woff') format('woff');
+	font-family: 'Montserrat Alternates';
+	src: url('./fonts/montserrat-alternates-v12-latin_cyrillic-regular.woff2')	format('woff2'),
+		   url('./fonts/montserrat-alternates-v12-latin_cyrillic-regular.woff') format('woff');
 	font-style: normal;
-	font-weight: 400;
 }
 
 @font-face {
-	font-family: 'Amatic SC';
-	src: url('./fonts/amatic-sc-v15-latin_cyrillic-700.woff2') format('woff2'),
-			 url('./fonts/amatic-sc-v15-latin_cyrillic-700.woff') format('woff');
+	font-family: 'Montserrat Alternates';
+	src: url('./fonts/montserrat-alternates-v12-latin_cyrillic-100.woff2') format('woff2'),
+			 url('./fonts/montserrat-alternates-v12-latin_cyrillic-100.woff') format('woff');
 	font-style: normal;
-	font-weight: 700;
+	font-weight: 100;
 }
 
 @font-face {
-	font-family: 'Good Vibes Pro';
-	src: url('./fonts/good-vibes-pro.woff2')	format('woff2'),
-			 url('./fonts/good-vibes-pro.woff') format('woff');
+	font-family: 'Montserrat Alternates';
+	src: url('./fonts/montserrat-alternates-v12-latin_cyrillic-200.woff2')	format('woff2'),
+			 url('./fonts/montserrat-alternates-v12-latin_cyrillic-200.woff') format('woff');
 	font-style: normal;
-	font-weight: 900;
+	font-weight: 200;
+}
+
+@font-face {
+	font-family: 'Montserrat Alternates';
+	src: url('./fonts/montserrat-alternates-v12-latin_cyrillic-600.woff2')	format('woff2'),
+			 url('./fonts/montserrat-alternates-v12-latin_cyrillic-600.woff') format('woff');
+	font-style: normal;
+	font-weight: 600;
+}
+
+@font-face {
+	font-family: 'Montserrat Alternates';
+	src: url('./fonts/montserrat-alternates-v12-latin_cyrillic-800.woff2')	format('woff2'),
+			 url('./fonts/montserrat-alternates-v12-latin_cyrillic-800.woff') format('woff');
+	font-style: normal;
+	font-weight: 800;
+}
+
+@font-face {
+	font-family: 'logo';
+	src: url('./fonts/20094.ttf') format('ttf');
 }

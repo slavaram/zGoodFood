@@ -39,7 +39,14 @@
 @import url('../blocks/menu/__description/_name/menu__description_name.css');
 @import url('../blocks/menu/__description/menu__description.css');
 @import url('../blocks/menu/__description/_about/menu__description_about.css');
-@import url('../blocks');
+@import url('../blocks/menu/__item/_box/menu__item_box.css');
+@import url('../blocks/menu/__item/_xxl/menu__item_xxl.css');
+@import url('../blocks/menu/__img/_xxl/menu__img_xxl.css');
+@import url('../blocks/menu/__img/_xxl2/menu__img_xxl2.css');
+@import url('../blocks/menu/__img/_box/menu__img_box.css');
+@import url('../blocks/menu/__item/_xl/menu__item_xl.css');
+@import url('../blocks/menu/__item/_l/menu__item_l.css');
+@import url('../blocks/menu/__name/_position/menu__name_position.css');
 @import url('../blocks');
 @import url('../blocks');
 @import url('../blocks');

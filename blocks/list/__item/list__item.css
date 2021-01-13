@@ -1,8 +1,8 @@
 .list__item {
     margin: 8px 0;
-    font-family: 'Amatic SC';
-    font-weight: 700;
-    font-size: 20px;
+    font-family: 'Montserrat Alternates';
+    font-weight: 200;
+    font-size: 18px;
 }
 
 .list__item:hover {
