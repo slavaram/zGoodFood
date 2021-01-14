@@ -1,7 +1,6 @@
 .menu {
     display: grid;
-    grid-template-columns: 615px 615px;
-    grid-template-rows: repeat(6, 500px);
+    grid-template-columns: 1fr 1frs;
+    grid-template-rows: repeat(6, 1fr);
     gap: 20px;
-    justify-content: space-between;
 }
