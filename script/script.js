@@ -2,7 +2,7 @@ const templateElement = document.querySelector('.template');
 const containerElements = document.querySelector('.menu');
 
 // Функция рендринга карточек
-function composeItem({link, linkname, link1, linkname1, link2, linkname2, link3, linkname3, link4, linkname4, name, artikul, artikulznach, sostav, sostavznach, upakovka, upakovkaznach, ves, vesznac, parametru, parametruznac, strana, stranaznach, url, urlname, url1, urlname1, url2, urlname2, url3, urlname3}) {
+function composeItem({link, linkname, link1, linkname1, name, artikul, artikulznach, sostav, sostavznach, upakovka, upakovkaznach, ves, vesznac, parametru, parametruznac, strana, stranaznach, url, urlname, url1, urlname1, url2, urlname2, url3, urlname3}) {
 
     const newElement = templateElement.content.cloneNode(true);
 
@@ -13,18 +13,6 @@ function composeItem({link, linkname, link1, linkname1, link2, linkname2, link3,
     const img1Element = newElement.querySelector('.element__img1');
     img1Element.src = link1;
     img1Element.alt = linkname1;
-
-    const img2Element = newElement.querySelector('.element__img2');
-    img2Element.src = link2;
-    img2Element.alt = linkname2;
-
-    const img3Element = newElement.querySelector('.element__img3');
-    img3Element.src = link3;
-    img3Element.alt = linkname3;
-
-    const img4Element = newElement.querySelector('.element__img4');
-    img4Element.src = link4;
-    img4Element.alt = linkname4;
 
     const nameElement = newElement.querySelector('.element__name');
     nameElement.textContent = name;
