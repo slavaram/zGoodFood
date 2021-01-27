@@ -46,9 +46,9 @@
 @import url('../blocks/element/__img2/element__img2.css');
 @import url('../blocks/element/__img3/element__img3.css');
 @import url('../blocks/element/__img4/element__img4.css');
-@import url('../blocks');
-@import url('../blocks');
-@import url('../blocks');
+@import url('../blocks/nav/__link/nav__link.css');
+@import url('../blocks/contact/contact.css');
+@import url('../blocks/contact/__title/contact__title.css');
 @import url('../blocks');
 @import url('../blocks');
 @import url('../blocks');
