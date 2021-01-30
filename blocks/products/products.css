@@ -5,3 +5,27 @@
     gap: 20px;
     padding: 50px 0;
 }
+
+@media screen and (max-width: 1280px) {
+    .products {
+        /* grid-template-columns: 400px 400px; */
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        /* justify-content: center; */
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .products {
+        grid-template-columns: 500px;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .products {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    }
+}

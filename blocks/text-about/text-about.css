@@ -1,0 +1,8 @@
+.text-about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 500px;
+    max-width: 800px;
+    margin: 0 auto;
+}

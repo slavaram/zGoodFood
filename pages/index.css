@@ -49,9 +49,9 @@
 @import url('../blocks/nav/__link/nav__link.css');
 @import url('../blocks/contact/contact.css');
 @import url('../blocks/contact/__title/contact__title.css');
-@import url('../blocks');
-@import url('../blocks');
-@import url('../blocks');
+@import url('../blocks/text-product/__text/text-product__text.css');
+@import url('../blocks/text-product/text-product.css');
+@import url('../blocks/text-about/text-about.css');
 @import url('../blocks');
 @import url('../blocks');
 @import url('../blocks');
