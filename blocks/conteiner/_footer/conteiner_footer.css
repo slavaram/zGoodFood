@@ -2,5 +2,10 @@
     display: flex;
     justify-content: space-between;
     padding: 50px 0;
-    /* border-top: 1px solid black; */
+}
+
+@media screen and (max-width: 767px) {
+    .conteiner_footer {
+        padding: 0 10px 50px;
+    }
 }

@@ -1,2 +1,21 @@
 .element__left-content {
 }
+
+@media screen and (max-width: 1023px) {
+    .element__left-content {
+
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .element__left-content {
+        padding: 10px 0 0;
+    }
+}
+
+
+@media screen and (max-width: 767px) {
+    .element__left-content {
+        padding: 10px 0 0;
+    }
+}

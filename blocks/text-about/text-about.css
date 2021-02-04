@@ -5,4 +5,7 @@
     min-height: 500px;
     max-width: 800px;
     margin: 0 auto;
+    font-size: 18px;
+    font-family: 'Oswald';
+    font-weight: 300;
 }

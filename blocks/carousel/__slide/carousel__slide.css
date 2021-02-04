@@ -10,6 +10,13 @@
     opacity: 1;
 }
 
+@media screen and (max-width: 767px) {
+    .carousel__slide {
+        width: 200px;
+        height: 200px;
+    }
+}
+
 .carousel__slide::before {
     content: attr(annot);
     display: block;

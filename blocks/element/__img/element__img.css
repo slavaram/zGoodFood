@@ -2,3 +2,22 @@
     width: 250px;
     height: 250px;
 }
+
+@media screen and (max-width: 1023px) {
+    .element__img {
+
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .element__img {
+    }
+}
+
+
+@media screen and (max-width: 767px) {
+    .element__img {
+        width: 200px;
+        height: 200px;
+    }
+}

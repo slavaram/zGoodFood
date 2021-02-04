@@ -6,6 +6,13 @@
     margin: 0 auto;
 }
 
+@media screen and (max-width: 767px) {
+    .carousel {
+      width: 200px;
+      height: 200px;
+    }
+}
+
 .carousel:hover .slide:after,
 .carousel:hover .counter,
 .carousel:hover .slide:before {

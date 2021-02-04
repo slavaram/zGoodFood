@@ -25,7 +25,8 @@
 
 @media screen and (max-width: 767px) {
     .products {
-        grid-template-columns: 1fr;
+        grid-template-columns: 300px;
         grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+        padding: 50px 0 25px;
     }
 }

@@ -1,7 +1,30 @@
 .element__name {
     margin: 10px 0;
-	font-family: 'Open Sans';
-    font-weight: 600;
+	font-family: 'Oswald';
+	font-weight: 600;
     font-size: 24px;
     text-align: center;
+}
+
+@media screen and (max-width: 1023px) {
+    .element__name {
+
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .element__name {
+        width: 100%;
+        position: absolute;
+        top: 0;
+    }
+}
+
+
+@media screen and (max-width: 767px) {
+    .element__name {
+        width: 100%;
+        position: absolute;
+        top: 0;
+    }
 }

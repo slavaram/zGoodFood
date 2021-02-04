@@ -7,3 +7,19 @@
 .element__img-logo-size:last-child {
     margin-right: 0;
 }
+
+@media screen and (max-width: 767px) {
+    .element__img-logo-size {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+    .element__img-logo-size:nth-child(3) {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+    
+    .element__img-logo-size:last-child {
+        margin-right: 0;
+        margin-bottom: 0;
+    }
+}
