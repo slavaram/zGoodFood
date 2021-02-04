@@ -4,14 +4,3 @@
     font-weight: 300;
     font-size: 18px;
 }
-
-.list__item:hover {
-    cursor: pointer;
-    text-decoration: underline;
-}
-
-@media screen and (max-width: 767px) {
-    .list__item {
-        font-size: 12px;
-    }
-}

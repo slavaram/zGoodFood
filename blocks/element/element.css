@@ -4,25 +4,3 @@
     align-items: center;
     justify-content: center;
 }
-
-@media screen and (max-width: 1023px) {
-    .element {
-
-    }
-}
-
-@media screen and (max-width: 991px) {
-    .element {
-        margin: 0 auto;
-        max-width: 350px;
-        flex-direction: column;
-    }
-}
-
-@media screen and (max-width: 767px) {
-    .element {
-        margin: 0 auto;
-        max-width: 350px;
-        flex-direction: column;
-    }
-}

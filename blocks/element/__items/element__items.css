@@ -3,21 +3,3 @@
     margin: 10px 0 0;
     padding: 0;
 }
-
-@media screen and (max-width: 1023px) {
-    .element__items {
-
-    }
-}
-
-@media screen and (max-width: 991px) {
-    .element__items {
-        margin-left: 20px;
-    }
-}
-
-@media screen and (max-width: 767px) {
-    .element__items {
-        margin-left: 20px;
-    }
-}

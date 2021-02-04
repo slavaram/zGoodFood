@@ -2,31 +2,3 @@
     text-align: left;
     padding-left: 15px;
 }
-
-@media screen and (max-width: 1023px) {
-    .element__right-content {
-
-    }
-}
-
-@media screen and (max-width: 991px) {
-    .element__right-content {
-        padding-left: 0;
-        display: flex;
-        justify-content: space-between;
-        padding-top: 70px;
-        position: relative;
-        width: 350px;
-    }
-}
-
-@media screen and (max-width: 767px) {
-    .element__right-content {
-        padding-left: 0;
-        display: flex;
-        justify-content: space-between;
-        padding-top: 70px;
-        position: relative;
-        width: 350px;
-    }
-}

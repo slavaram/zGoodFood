@@ -5,26 +5,3 @@
     gap: 20px;
     padding-top: 100px;
 }
-
-@media screen and (max-width: 1023px) {
-    .menu {
-        padding-top: 70px;
-    }
-}
-
-@media screen and (max-width: 991px) {
-    .menu {
-        padding-top: 50px;
-        grid-template-columns: 345px 345px;
-        gap: 20px;
-        width: 748px;
-    }
-}
-
-@media screen and (max-width: 767px) {
-    .menu {
-        max-width: 375px;
-        grid-template-columns: 375px;
-        padding-top: 30px;
-    }
-}

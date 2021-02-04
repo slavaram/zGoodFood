@@ -5,10 +5,3 @@
     align-items: center;
     background-color: #fff;
 }
-
-@media screen and (max-width: 767px) {
-    .header__conteiner {
-        max-width: 350px;
-        flex-direction: column;
-    }
-}
