@@ -1,0 +1,10 @@
+.content__lastname {
+    margin: 0;
+    padding: 5px 0 50px;
+    text-align: center;
+    font-family: 'Oswald';
+    font-weight: 200;
+    font-size: 20px;
+    position: absolute;
+    top: 310px;
+}

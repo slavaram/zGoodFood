@@ -1,8 +1,18 @@
 @font-face {
 	font-family: 'Oswald';
+	src: url('./fonts/oswald-v36-latin_cyrillic-200.woff2') format('woff2'),
+		   url('./fonts/oswald-v36-latin_cyrillic-200.woff') format('woff');
+	font-style: normal;
+	font-weight: 200;
+
+}
+
+@font-face {
+	font-family: 'Oswald';
 	src: url('./fonts/oswald-v36-latin_cyrillic-300.woff2') format('woff2'),
 		   url('./fonts/oswald-v36-latin_cyrillic-300.woff') format('woff');
 	font-style: normal;
+	font-weight: 300;
 
 }
 
@@ -11,6 +21,7 @@
 	src: url('./fonts/oswald-v36-latin_cyrillic-regular.woff2') format('woff2'),
 			 url('./fonts/oswald-v36-latin_cyrillic-regular.woff') format('woff');
 	font-style: normal;
+	font-weight: normal;
 }
 
 @font-face {
@@ -22,9 +33,9 @@
 }
 
 @font-face {
-	font-family: 'Oswald';
-	src: url('./fonts/oswald-v36-latin_cyrillic-700.woff2') format('woff2'),
-			 url('./fonts/oswald-v36-latin_cyrillic-700.woff') format('woff');
+	font-family: 'Roboto Condensed';
+	src: url('./fonts/roboto-condensed-v19-latin_cyrillic-700.woff2') format('woff2'),
+			 url('./fonts/roboto-condensed-v19-latin_cyrillic-700.woff') format('woff');
 	font-style: normal;
 	font-weight: 700;
 }

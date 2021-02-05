@@ -1,5 +1,8 @@
 .list__link {
     text-decoration: none;
-    font-family: 'Oswald';
-	font-weight: 300;
+    color: black;
+}
+
+.list__link:hover {
+    opacity: 0.6;
 }

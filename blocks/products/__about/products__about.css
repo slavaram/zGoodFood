@@ -1,0 +1,6 @@
+.products__about {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    max-width: 470px;
+}
