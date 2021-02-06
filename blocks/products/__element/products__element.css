@@ -11,7 +11,11 @@
         display: none;
     }
     .products__element {
-        width: 65px;
-        height: 65px;
+        width: 150px;
+        height: 150px;
+    }
+    .products__element:nth-child(1),
+    .products__element:nth-child(6) {
+        padding-bottom: 20px;
     }
 }

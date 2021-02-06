@@ -9,6 +9,7 @@
     .products__button {
         order: 10;
         margin: 10px 0;
+        height: 40px;
     }
 }
 

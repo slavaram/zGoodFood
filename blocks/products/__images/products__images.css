@@ -4,8 +4,10 @@
 }
 
 @media screen and (max-width: 767px) {
-    .products__images {
-        position: relative;
+    .products__images {   
         order: 2;
+        display: flex;
+        flex-wrap: wrap;
+        padding-bottom: 10px;
     }
 }

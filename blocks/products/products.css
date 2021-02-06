@@ -11,7 +11,7 @@
     .products {
         grid-template-columns: 1fr;
         grid-template-rows: repeat(1 4fr);
-        row-gap: 40px;
-        padding: 10px 0;
+        row-gap: 0;
+        padding: 0;
     }
 }

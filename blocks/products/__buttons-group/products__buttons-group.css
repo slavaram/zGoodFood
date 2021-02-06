@@ -7,6 +7,6 @@
 
 @media screen and (max-width: 767px) {
     .products__buttons-group {
-        padding: 10px 0;
+        padding: 10px 0 0;
     }
 }

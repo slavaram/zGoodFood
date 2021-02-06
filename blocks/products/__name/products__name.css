@@ -4,3 +4,11 @@
     font-family: 'Oswald';
     font-weight: 600;
 }
+
+@media screen and (max-width: 767px) {
+    .products__name {
+        padding: 40px 0 0;
+        font-size: 36px;
+        margin: 0;
+    }
+}
