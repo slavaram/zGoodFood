@@ -8,6 +8,12 @@
     background-color: #fff;
 }
 
+@media screen and (max-width: 767px) {
+    .products__item {
+        display: none;
+    }
+}
+
 .products__item:hover {
     cursor: pointer;
     -webkit-transform: scale(1.2);

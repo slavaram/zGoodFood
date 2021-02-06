@@ -8,3 +8,10 @@
     position: absolute;
     top: 150px;
 }
+
+@media screen and (max-width: 767px) {
+    .content__name {
+        font-size: 26px;
+        margin-left: 5px;
+    }
+}

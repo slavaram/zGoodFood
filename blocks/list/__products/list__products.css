@@ -3,3 +3,9 @@
     margin: 0;
     list-style: none;
 }
+
+@media screen and (max-width: 767px) {
+    .list__products {
+        display: flex;
+    }
+}

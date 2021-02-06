@@ -2,3 +2,10 @@
     position: absolute;
     bottom: 0;
 }
+
+@media screen and (max-width: 767px) {
+    .products__images {
+        position: relative;
+        order: 2;
+    }
+}

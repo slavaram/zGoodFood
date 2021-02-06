@@ -69,9 +69,9 @@
 @import url('../blocks/products/__text/_left/products__about_left.css');
 @import url('../blocks/content/__lastname/content__lastname.css');
 @import url('../blocks/backgroun/backgroun.css');
-@import url('../blocks');
-@import url('../blocks');
-@import url('../blocks');
+@import url('../blocks/products/__button/_second/products__button_second.css');
+@import url('../blocks/products/__button/_first/products__button_first.css');
+@import url('../blocks/products/__buttons-group/products__buttons-group.css');
 @import url('../blocks');
 @import url('../blocks');
 @import url('../blocks');

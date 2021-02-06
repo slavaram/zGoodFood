@@ -8,3 +8,11 @@
     position: absolute;
     top: 310px;
 }
+
+@media screen and (max-width: 767px) {
+    .content__lastname {
+        font-size: 12px;
+        margin-left: 5px;
+        top: 275px;
+    }
+}

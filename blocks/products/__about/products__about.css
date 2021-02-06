@@ -4,3 +4,10 @@
     position: relative;
     max-width: 470px;
 }
+
+@media screen and (max-width: 767px) {
+    .products__about {
+        max-width: 320px;
+        position: relative;
+    }
+}

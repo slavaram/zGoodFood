@@ -1,3 +1,9 @@
 .products__text_rigth {
     text-align: right;
 }
+
+@media screen and (max-width: 767px) {
+    .products__text_rigth {
+        text-align: center;
+    }
+}

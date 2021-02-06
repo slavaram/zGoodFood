@@ -2,3 +2,10 @@
     align-items: flex-start;
     margin-left: 20px;
 }
+
+@media screen and (max-width: 767px) {
+    .products__about_left {
+        align-items: center;
+        margin-left: 0;
+    }
+}

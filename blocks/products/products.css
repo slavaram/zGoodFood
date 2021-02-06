@@ -6,3 +6,12 @@
     row-gap: 100px;
     padding: 50px 0;
 }
+
+@media screen and (max-width: 767px) {
+    .products {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(1 4fr);
+        row-gap: 40px;
+        padding: 10px 0;
+    }
+}

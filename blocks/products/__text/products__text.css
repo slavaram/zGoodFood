@@ -5,3 +5,9 @@
     font-weight: 300;
     max-width: 400px;
 }
+
+@media screen and (max-width: 767px) {
+    .products__text {
+        order: 0;
+    }
+}

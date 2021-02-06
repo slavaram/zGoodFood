@@ -3,6 +3,12 @@
     color: black;
 }
 
+@media screen and (max-width: 767px) {
+    .list__link {
+        margin-right: 30px;
+    }
+}
+
 .list__link:hover {
     opacity: 0.6;
 }

@@ -2,3 +2,10 @@
     align-items: flex-end;
     margin-right: 20px;
 }
+
+@media screen and (max-width: 767px) {
+    .products__about_rigth {
+        align-items: center;
+        margin-right: 0;
+    }
+}

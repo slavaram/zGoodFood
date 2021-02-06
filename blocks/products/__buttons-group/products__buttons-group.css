@@ -1,13 +1,12 @@
-.footer__conteiner {
+.products__buttons-group {
     display: flex;
+    align-items: center;
+    max-width: 300px;
     justify-content: space-between;
-    padding: 50px 0;
 }
 
 @media screen and (max-width: 767px) {
-    .footer__conteiner {
+    .products__buttons-group {
         padding: 10px 0;
-        flex-direction: column;
-        margin-left: 10px;
     }
 }
