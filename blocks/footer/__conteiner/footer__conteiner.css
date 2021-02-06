@@ -9,5 +9,6 @@
         padding: 10px 0;
         flex-direction: column;
         margin-left: 10px;
+        width: 300px;
     }
 }
