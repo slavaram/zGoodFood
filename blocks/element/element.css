@@ -1,6 +1,7 @@
 .element {
     box-shadow: 0 0 10px 5px rgba(221, 221, 221, 1);
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
 }

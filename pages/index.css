@@ -25,6 +25,7 @@
 @import url('../blocks/darman/__name/darman__name.css');
 @import url('../blocks/menu/menu.css');
 @import url('../blocks/element/element.css');
+@import url('../blocks/element/__body/element__body.css');
 @import url('../blocks/element/element_xl/element_xl.css');
 @import url('../blocks/element/__name/element__name.css');
 @import url('../blocks/element/__img/element__img.css');
